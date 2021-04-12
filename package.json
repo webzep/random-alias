@@ -1,0 +1,12 @@
+{
+  "name": "random-alias",
+  "version": "1.0.0",
+  "description": "Generate random combinations of colors, nouns and adjectives.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["alias","random","username","generator","word"],
+  "author": "Steve Richardson",
+  "license": "MIT"
+}
