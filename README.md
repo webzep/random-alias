@@ -2,7 +2,7 @@
 
 ## Sample
 ```js
-	const randomAlias = require("random-alias")
+	const { randomAlias } = require("random-alias")
 
 	 const schemaExample = [
 	 	{
@@ -23,11 +23,13 @@
 	 ];
 
 	 const optionsExample = {
-	     delimiter = ' ',
+	     delimiter: ' ',
 	     possibilityCount: true
 	 }
 
-	 const alias = randomWord( schemaExample, optionsExample)
+	const alias = randomAlias(schemaExample, optionsExample)
+	 
+	console.log(alias)
 
 	//  Ouput
 	// { word: 'loud convinced thongs', possibilities: 11811517172 }
